@@ -1,4 +1,5 @@
-/* Enter the code to remove the main node element under this comment */
-
-/* Create your new element here and assign it to newHeader */
-const newHeader = null;
+document.queryselector('main').remove();
+const newHeader = document.createElement('h1')
+newHeader.id = "victory"
+document.body.appendChild(newHeader);
+newHeader.innerHTML = 'Sophie';
